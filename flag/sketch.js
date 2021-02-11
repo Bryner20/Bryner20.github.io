@@ -3,7 +3,7 @@ function setup() {
 	createCanvas(740, 460);
 }
 function draw() {
-	background('grey');
+	background('red');
     
     fill(255, 183, 127);
 	ellipse(367, 155, 195, 195);
