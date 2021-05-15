@@ -1,0 +1,52 @@
+body{
+	background-color:grey;
+	color: black;
+	font-family: Andale Mono, monospace;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	color: yellow;
+	transition: color 200ms ease-in;
+}
+
+a:hover{
+	color: red;
+}
+
+img{
+	width: 100%;
+}
+
+#container {
+	min-width: 320px;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+#header ul{
+	display: flex;
+}
+
+#header li{
+	margin-left: 1em;
+}
+
+#header a{
+	font-size: 1.5em; 
+}
+
+#portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1em;
+}
